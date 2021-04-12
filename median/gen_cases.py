@@ -25,8 +25,6 @@ def get_conv_rate(serial):
     for j in range(0, len(serial), 3):
         tem_ipf = open("./tmpFile/data.in", "w+")
         a_case = list(serial[j:j + 3])
-        sorted_data = sorted(a_case[:-1], reverse=True)
-        a_case[:-1] = sorted_data
         bench_input_data = " ".join([str(ii) for ii in a_case]) + "\n"
         cui.info("a case is: {}".format(bench_input_data.rstrip()))
         cases_file.write(bench_input_data)
