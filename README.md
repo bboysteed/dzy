@@ -3,6 +3,7 @@ for dzy
 
 ## 目录说明
 
+```
 .
 ├── checksum
 │   ├── gen_cases.py
@@ -59,6 +60,8 @@ for dzy
     └── pyvenv.cfg
 
 32 directories, 78 files
+```
+
 
 ### 1.配置虚拟环境为项目目录下的`venv`
 
